@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <style>
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .lol {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+    background-color: palevioletred;
+    color: black;
+}
+li.dropdown{
+    display: inline-block;
+}
+.drp-cnt{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.drp-cnt a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.drp-cnt a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .drp-cnt {
+  display: block;
+}
+
+.dropdown:hover .lol {
+  background-color: #3e8e41;
+}
+
+</style>
+    </head>
+    <body>
+
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">News</a></li>
+            <li class="dropdown">
+                <a href="" class="lol">DropDown</a>
+                <div  class="drp-cnt">
+                    <a href="">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                </div>
+            </li>
+        </ul>
+
+
+
+
+    </body>
+</html>
