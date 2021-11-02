@@ -28,3 +28,15 @@ function areaTri(){
     return area
 }console.log(areaTri())
 
+function periarea(){
+    var len = 5
+    var bre = 13
+
+    area = len * bre
+    perimeter = (2*len) + (2*bre)
+
+    console.log('Area : ' + area + ' Perimeter : ' + perimeter)
+
+}
+console.log(periarea())
+
