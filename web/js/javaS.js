@@ -8,7 +8,7 @@ function Ucase(str){
     }
     return newStrArray.join(' ')
 }
-console.log(Ucase(' class name completion for the attribute'))
+console.log(Ucase('class name completion for the attribute'))
 
 
 function Type(x){
