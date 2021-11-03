@@ -11,3 +11,11 @@ function longWord(str){
     return result
 }
 console.log(longWord('Web Development Tutorial'))
+
+function reverseNum(num){
+
+    num = num + ''
+    return num.split('').reverse().join('')
+
+}
+console.log(reverseNum(32165))
