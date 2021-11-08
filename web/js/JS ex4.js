@@ -1,6 +1,12 @@
-function code(){
+function code(str){
 
-    var cd = prompt('enter postal code', 'post code')
-    alert(cd)
+    
+    patt1 = /^[a-b]|[0-9]|[a-b]/
+    
+    if(patt1.test(str)){
+        return true
+    }else{
+        return false
+    }
 }
-code()
+console.log(code('a0b'))
