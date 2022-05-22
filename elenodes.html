@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2> JavaScript HTML DOM</h2>
+        <p>Add a new HTML element</p>
+
+        <div id="div1">
+            <p id="p1"> this is a paragraph.</p>
+            <p id="p2"> this is another paragraph.</p>
+        </div>
+
+        <script>
+            const para = document.createElement("p")
+            const node = document.createTextNode("this is new")
+
+            para.appendChild(node)
+            const element = document.getElementById("div1")
+            element.appendChild(para)
+
+            const elmnt = document.getElementById("p1")
+            elmnt.remove()
+        </script>
+    </body>
+</html>

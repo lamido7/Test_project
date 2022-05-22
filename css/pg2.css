@@ -1,0 +1,44 @@
+nav {
+	
+    top: 0;
+    color: black;
+	width: 100%;
+	height: 70px;
+    background: blue;
+    
+}
+nav ul{
+    float: right;
+}
+
+nav li {
+	display: inline-block;
+    padding: 24px 10px;  
+}
+
+nav li a {
+	color: black;
+    text-transform: uppercase ;
+   
+}
+#sc1{
+    width: 100%;
+    height:25%;
+    background-color: maroon; 
+}
+#sc2{
+    background-color: blueviolet;
+    float: right;
+	height: 420px;
+	width: 350px;
+	background-color: #CCCCCC;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 0;
+	padding-top: 10px;
+	margin-top: 15px;
+}
+footer{
+    text-align: center;
+    background-color: aqua;
+}

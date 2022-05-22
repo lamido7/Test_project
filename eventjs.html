@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>JavaScript HTML events</h2>
+        <h2 onclick="changeText(this)">Click on this text!</h2>
+        <button onclick="displayDate()">the time is?</button>
+
+        <p id="demo"></p>
+       
+       
+       
+       <script>
+            function changeText(id){
+                id.innerHTML = "oppps"
+            }
+
+            function displayDate(){
+                document.getElementById("demo").innerHTML = Date()
+            }
+        </script>
+    </body>
+</html>
